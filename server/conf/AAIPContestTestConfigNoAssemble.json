@@ -2,7 +2,7 @@
   "server" : 
       {
       "tournamentMode" : "random",
-      "teamsPerMatch" : 2,
+      "teamsPerMatch" : 1,
       "teamSize" : 12,
       "launch" : "key",
       "port" : 12300,
@@ -172,8 +172,8 @@
             "resourcesMax" : 6,
             "levelDecreaseMin" : 1,
             "levelDecreaseMax" : 2,
-            "graphDepthMin" : 3,
-            "graphDepthMax" : 4,
+            "graphDepthMin" : 0,
+            "graphDepthMax" : 0,
             "volMin" : 5,
             "volMax" : 10,
             "partsMin" : 2,
@@ -201,6 +201,5 @@
 
   "teams" : {
     "A" : "$(teams/A.json)",
-    "B" : "$(teams/B.json)",
   }
 }
